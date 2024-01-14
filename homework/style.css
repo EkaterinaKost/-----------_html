@@ -1,57 +1,10 @@
-.top-head {
-  background-color: #f8f3f4;
-  padding-top: 65px;
-  padding-bottom: 65px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.top-head_heading {
-  font-size: 24px;
-  line-height: 20px;
-  font-weight: 900;
-  text-transform: uppercase;
-  color: #f16d7f;
-}
-
-.breadcrumbs__link {
-  font-size: 14px;
-  line-height: 20px;
-  font-weight: 300;
-  text-transform: uppercase;
-  color: #636363;
-}
-
-.breadcrumbs__link_site {
-  font-weight: 700;
-  color: #f16d7f;
-}
-
-.also {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 96px;
-  padding-bottom: 50px;
-}
-
-.also h1 {
-  font-size: 24px;
-  line-height: 20px;
-  font-weight: 900;
-  text-transform: uppercase;
-  color: #4d4d4d;
-}
-
-* {
+@im * {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
   font-style: normal;
   box-sizing: border-box;
 }
-
 a {
   text-decoration: none;
 }
@@ -234,89 +187,12 @@ img {
   margin-left: 19px;
 }
 
-.my-account-content {
-  background-color: #fff;
-  border-radius: 5px;
-  border: 1px solid #e8e8e8;
-  padding: 17px 21px 15px;
-  position: absolute;
-  z-index: 1000;
-  top: 69px;
-  width: 262px;
-  display: flex;
-  left: -8px;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.my-account-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  border-bottom: 1px solid #e8e8e8;
-}
-
-.my-account-img {
-  width: 72px;
-  height: 85px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.my-account-item:hover img {
-  transform: scale(1.1);
-}
-
-.my-account-item-heading {
-  font-size: 12px;
-  line-height: 1.2;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #222222;
-}
-
-.my-account-item-star {
-  display: flex;
-  align-items: center;
-  gap: 1px;
-}
-
-.my-account-star {
-  width: 15px;
-  height: 15px;
-}
-
-.my-account-price {
-  font-size: 12px;
-  line-height: 1.2;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: #f16d7f;
-}
-
-.my-account-add {
-  width: 16px;
-  height: 16px;
-}
-
-.my-account-button-add {
-  display: block;
-  border: none;
-  background-color: #fff;
-  cursor: pointer;
-}
-
-.my-account-button-add:active .my-account-add path {
-  fill: #f16d7f;
-}
-
-.my-account-order {
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.my-account-order_text {
+.container_text {
   font-size: 16px;
   line-height: 1.2;
   font-weight: 700;
