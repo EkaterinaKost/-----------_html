@@ -178,76 +178,7 @@ $widthSite: 1146px;
     color: #ffffff;
     margin-left: 19px;
 }
-.my-account-content{
-    background-color: #fff;
-    border-radius: 5px;
-    border: 1px solid #e8e8e8;
-    padding: 17px 21px 15px;
-    position: absolute;
-    z-index: 1000;
-    top: 69px;
-    width: 262px;
-    display: flex;
-    left: -8px;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.my-account-item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    border-bottom: 1px solid #e8e8e8;
-
-}
-.my-account-img{
-    width: 72px;
-    height: 85px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.my-account-item:hover img {   
-    transform: scale(1.1); 
-  }
-.my-account-item-heading{
-    font-size: 12px;
-    line-height: 1.2;
-    font-weight: 700;
-    text-transform: uppercase;
-    color:$colorSelectSiteText;
-}
-.my-account-item-star{
-    display: flex;
-    align-items: center;
-    gap: 1px;
-}
-.my-account-star{
-    width: 15px;
-    height: 15px;
-}
-
-.my-account-price{
-    font-size: 12px;
-    line-height: 1.2;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: $colorSelectSite;
-}
-.my-account-add{
-    width: 16px;
-    height: 16px;
-}
-.my-account-button-add{
-    display: block;
-    border: none;
-    background-color: #fff;
-    cursor: pointer;
-}
-.my-account-button-add:active .my-account-add path{
-    fill: $colorSelectSite;
-}
-.my-account-order{
+.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
